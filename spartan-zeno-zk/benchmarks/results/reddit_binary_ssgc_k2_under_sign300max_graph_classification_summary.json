@@ -1,0 +1,452 @@
+{
+  "actual_K": 2,
+  "actual_model": "SSGC",
+  "aggregate_primary_unit": "complete_REDDIT_BINARY_test_split_run",
+  "all_verification_passed": true,
+  "batchsize": 1,
+  "checkpoint_loaded": false,
+  "checkpoint_path": "/home/wkr/model_and_zkp/spartan-zeno-zk/benchmarks/artifacts/reddit_binary_ssgc_k2_under_sign300max_graph_weights.npz",
+  "complete_dataset_scope": "complete_REDDIT_BINARY_test_split",
+  "complete_test_split_covered_every_run": true,
+  "complete_test_split_graphs": 200,
+  "container_mode": "global_max",
+  "dataset": "REDDIT-BINARY",
+  "dataset_run_aggregate": {
+    "commit_time_ms": {
+      "max": 18107.597284,
+      "mean": 18002.2685842,
+      "min": 17928.655296,
+      "std": 68.64865422471419
+    },
+    "commitment_binding_time_ms": {
+      "max": 459.709589,
+      "mean": 458.92504360000004,
+      "min": 458.109755,
+      "std": 0.6005815172270902
+    },
+    "opening_generation_time_ms": {
+      "max": 465195.779583,
+      "mean": 461970.1699326,
+      "min": 459396.386222,
+      "std": 2369.4719640027474
+    },
+    "opening_parse_time_ms": {
+      "max": 41.745332,
+      "mean": 41.247098,
+      "min": 40.928922,
+      "std": 0.30797916567927025
+    },
+    "opening_verify_time_ms": {
+      "max": 256368.032235,
+      "mean": 255469.2061624,
+      "min": 254689.42436900001,
+      "std": 723.712691351999
+    },
+    "proof_assembly_time_ms": {
+      "max": 95.404111,
+      "mean": 92.7924288,
+      "min": 90.059101,
+      "std": 2.139495966709262
+    },
+    "proof_digest_time_ms": {
+      "max": 19769.291062,
+      "mean": 19757.351776800002,
+      "min": 19746.83109,
+      "std": 10.044304261839361
+    },
+    "proof_digest_verify_time_ms": {
+      "max": 19757.560231,
+      "mean": 19752.6828052,
+      "min": 19748.351437,
+      "std": 4.50508908845598
+    },
+    "proof_size_bytes": {
+      "max": 53337800.0,
+      "mean": 53337800.0,
+      "min": 53337800.0,
+      "std": 0.0
+    },
+    "proof_size_kb": {
+      "max": 52087.6953125,
+      "mean": 52087.6953125,
+      "min": 52087.6953125,
+      "std": 0.0
+    },
+    "proof_size_mb": {
+      "max": 50.86688995361328,
+      "mean": 50.86688995361328,
+      "min": 50.86688995361328,
+      "std": 0.0
+    },
+    "prove_time_excluding_commit_ms": {
+      "max": 511653.857851,
+      "mean": 508379.63711179997,
+      "min": 505738.838649,
+      "std": 2418.8117624461343
+    },
+    "public_binding_time_ms": {
+      "max": 307.303959,
+      "mean": 307.2162682,
+      "min": 307.115367,
+      "std": 0.0768099755969316
+    },
+    "public_input_validation_time_ms": {
+      "max": 23504.67511,
+      "mean": 22987.199641799998,
+      "min": 22431.733025,
+      "std": 526.627941314462
+    },
+    "public_preprocess_time_ms": {
+      "max": 7895.491562001407,
+      "mean": 7875.408417393267,
+      "min": 7861.288496054709,
+      "std": 14.422372174506382
+    },
+    "range_commitment_time_ms": {
+      "max": 2972.133855,
+      "mean": 2970.691205,
+      "min": 2969.290798,
+      "std": 1.1933614981256448
+    },
+    "residual_constraint_time_ms": {
+      "max": 207.042991,
+      "mean": 194.27077960000003,
+      "min": 189.896757,
+      "std": 7.195208681724372
+    },
+    "spark_root_time_ms": {
+      "max": 138.196735,
+      "mean": 137.2127898,
+      "min": 135.427577,
+      "std": 1.1332690589615877
+    },
+    "spark_verify_time_ms": {
+      "max": 160.825221,
+      "mean": 160.0860486,
+      "min": 159.789232,
+      "std": 0.4288930868098692
+    },
+    "sumcheck_context_verify_time_ms": {
+      "max": 19586.2493,
+      "mean": 19581.3266016,
+      "min": 19575.255076,
+      "std": 4.308866564821678
+    },
+    "sumcheck_time_ms": {
+      "max": 26211.347765,
+      "mean": 26150.56374,
+      "min": 26093.332083,
+      "std": 48.93009309226119
+    },
+    "sumcheck_verify_time_ms": {
+      "max": 3824.81971,
+      "mean": 3824.2774578,
+      "min": 3823.6096119999997,
+      "std": 0.5293952199221184
+    },
+    "total_backend_time_ms": {
+      "max": 552500.661799,
+      "mean": 549783.1062698,
+      "min": 547662.433219,
+      "std": 2049.5237071324955
+    },
+    "total_prover_time_including_commit_ms": {
+      "max": 529663.88919,
+      "mean": 526381.905696,
+      "min": 523748.7358,
+      "std": 2395.4772908711407
+    },
+    "verify_commitment_parse_time_ms": {
+      "max": 34.178032,
+      "mean": 34.001051800000006,
+      "min": 33.866663,
+      "std": 0.1437624560714655
+    },
+    "verify_public_input_time_ms": {
+      "max": 23941.077488,
+      "mean": 23507.6089646,
+      "min": 23137.781689,
+      "std": 355.9395682146665
+    },
+    "verify_time_ms": {
+      "max": 331761.6220320165,
+      "mean": 330739.99918800144,
+      "min": 330045.130215995,
+      "std": 651.8993741205111
+    },
+    "verify_total_backend_time_ms": {
+      "max": 323871.907474,
+      "mean": 322883.593083,
+      "min": 322239.088867,
+      "std": 638.2994819222992
+    },
+    "verify_weight_binding_time_ms": {
+      "max": 418.733882,
+      "mean": 418.43665780000003,
+      "min": 418.260725,
+      "std": 0.1814917952462325
+    },
+    "wall_clock_dataset_run_time_ms": {
+      "max": 1005076.708811,
+      "mean": 1002205.9578512028,
+      "min": 999635.1823540032,
+      "std": 2583.3903245173537
+    },
+    "witness_commitment_time_ms": {
+      "max": 14543.904806,
+      "mean": 14435.400541,
+      "min": 14360.756010000001,
+      "std": 70.43145037443944
+    },
+    "witness_generation_time_ms": {
+      "max": 362.826672,
+      "mean": 320.6443236,
+      "min": 306.483506,
+      "std": 24.063963657456533
+    }
+  },
+  "dataset_runs_measured": 5,
+  "dataset_runs_total": 6,
+  "dims": {
+    "D_max": 64,
+    "H_max": 128,
+    "N_max": 4096,
+    "c": 2,
+    "d": 11,
+    "h": 32
+  },
+  "do_not_verify_softmax": true,
+  "exclude_padding_nodes": true,
+  "optimized_rust_proof_route": true,
+  "per_graph_aggregate": {
+    "commit_time_ms": {
+      "max": 111.425354,
+      "mean": 90.01134292100001,
+      "min": 84.433917,
+      "std": 3.5006820537605323
+    },
+    "commitment_binding_time_ms": {
+      "max": 4.267454000000001,
+      "mean": 2.294625218,
+      "min": 2.214058,
+      "std": 0.13987158621221824
+    },
+    "opening_generation_time_ms": {
+      "max": 3810.852608,
+      "mean": 2309.850849663,
+      "min": 2220.258038,
+      "std": 76.71861162017373
+    },
+    "opening_parse_time_ms": {
+      "max": 0.446184,
+      "mean": 0.20623549,
+      "min": 0.181858,
+      "std": 0.012924131764407378
+    },
+    "opening_verify_time_ms": {
+      "max": 1572.879482,
+      "mean": 1277.346030812,
+      "min": 1263.811789,
+      "std": 19.712355085361636
+    },
+    "proof_assembly_time_ms": {
+      "max": 0.534408,
+      "mean": 0.463962144,
+      "min": 0.42233899999999996,
+      "std": 0.015222967462279541
+    },
+    "proof_digest_time_ms": {
+      "max": 99.538757,
+      "mean": 98.786758884,
+      "min": 96.65761,
+      "std": 0.43373217620427873
+    },
+    "proof_digest_verify_time_ms": {
+      "max": 100.249997,
+      "mean": 98.76341402599999,
+      "min": 96.310886,
+      "std": 0.321209655115276
+    },
+    "proof_size_bytes": {
+      "max": 266689.0,
+      "mean": 266689.0,
+      "min": 266689.0,
+      "std": 0.0
+    },
+    "proof_size_kb": {
+      "max": 260.4384765625,
+      "mean": 260.4384765625,
+      "min": 260.4384765625,
+      "std": 0.0
+    },
+    "proof_size_mb": {
+      "max": 0.2543344497680664,
+      "mean": 0.2543344497680664,
+      "min": 0.2543344497680664,
+      "std": 0.0
+    },
+    "prove_time_excluding_commit_ms": {
+      "max": 4048.1391089999997,
+      "mean": 2541.898185559,
+      "min": 2449.223747,
+      "std": 77.17994139409743
+    },
+    "public_binding_time_ms": {
+      "max": 2.370614,
+      "mean": 1.536081341,
+      "min": 1.379917,
+      "std": 0.1640523698988837
+    },
+    "public_input_validation_time_ms": {
+      "max": 127.85300799999999,
+      "mean": 114.935998209,
+      "min": 85.479516,
+      "std": 7.724459655809638
+    },
+    "public_preprocess_time_ms": {
+      "max": 93.43222500383854,
+      "mean": 39.377042086966334,
+      "min": 35.6769739985466,
+      "std": 7.56365053189512
+    },
+    "range_commitment_time_ms": {
+      "max": 15.611324,
+      "mean": 14.853456025,
+      "min": 14.424724999999999,
+      "std": 0.15675914456747936
+    },
+    "residual_constraint_time_ms": {
+      "max": 2.119325,
+      "mean": 0.9713538979999999,
+      "min": 0.773779,
+      "std": 0.1381995527718811
+    },
+    "spark_root_time_ms": {
+      "max": 4.895168,
+      "mean": 0.686063949,
+      "min": 0.032048,
+      "std": 0.8929489753504731
+    },
+    "spark_verify_time_ms": {
+      "max": 5.0914649999999995,
+      "mean": 0.800430243,
+      "min": 0.140803,
+      "std": 0.8399472025237118
+    },
+    "sumcheck_context_verify_time_ms": {
+      "max": 103.15105600000001,
+      "mean": 97.906633008,
+      "min": 95.62876,
+      "std": 0.3458631075262347
+    },
+    "sumcheck_time_ms": {
+      "max": 140.162711,
+      "mean": 130.7528187,
+      "min": 125.360154,
+      "std": 2.1372717198151405
+    },
+    "sumcheck_verify_time_ms": {
+      "max": 19.778019,
+      "mean": 19.121387288999998,
+      "min": 18.631009,
+      "std": 0.0693964657793474
+    },
+    "total_backend_time_ms": {
+      "max": 4244.851732,
+      "mean": 2748.915531349,
+      "min": 2654.1654000000003,
+      "std": 77.36690546361264
+    },
+    "total_prover_time_including_commit_ms": {
+      "max": 4151.217892,
+      "mean": 2631.90952848,
+      "min": 2535.983914,
+      "std": 77.63340204197425
+    },
+    "verify_commitment_parse_time_ms": {
+      "max": 0.21156699999999998,
+      "mean": 0.170005259,
+      "min": 0.15349,
+      "std": 0.005453737840633097
+    },
+    "verify_public_input_time_ms": {
+      "max": 128.98457499999998,
+      "mean": 117.538044823,
+      "min": 91.04863,
+      "std": 6.586520327316337
+    },
+    "verify_time_ms": {
+      "max": 1935.9969239979982,
+      "mean": 1653.6999959400073,
+      "min": 1611.6676269993186,
+      "std": 20.58923857256921
+    },
+    "verify_total_backend_time_ms": {
+      "max": 1895.112865,
+      "mean": 1614.417965415,
+      "min": 1579.260053,
+      "std": 20.27948745124459
+    },
+    "verify_weight_binding_time_ms": {
+      "max": 2.295534,
+      "mean": 2.0921832890000003,
+      "min": 2.037448,
+      "std": 0.014829581350142677
+    },
+    "witness_commitment_time_ms": {
+      "max": 90.843245,
+      "mean": 72.177002705,
+      "min": 67.224507,
+      "std": 2.928428699839111
+    },
+    "witness_generation_time_ms": {
+      "max": 7.604426,
+      "mean": 1.603221618,
+      "min": 1.213353,
+      "std": 0.725657768991339
+    }
+  },
+  "per_graph_proofs_measured": 1000,
+  "per_graph_proofs_total": 1200,
+  "pooling_denominator": "N_real",
+  "preprocess_cache_build_time_ms": 0.0,
+  "private_output": "graph_level_logits Y_G",
+  "progress_dir": "/home/wkr/model_and_zkp/spartan-zeno-zk/benchmarks/results/reddit_binary_ssgc_k2_under_sign300max_graph_classification_progress",
+  "public_output": "predicted_label ell",
+  "public_preprocess_cached": false,
+  "public_preprocess_strategy": "lazy_per_graph_streaming_to_avoid_dense_test_cache",
+  "purpose": "Six-run complete-test-split Spartan-ZENO ZK correctness and integrity benchmark for REDDIT-BINARY graph classification with actual model SSGC(K=2).",
+  "readout": "MeanPool",
+  "resume_enabled": true,
+  "shape_profile": "SIGN(3,0,0)_MAX",
+  "split_counts": {
+    "test": 200,
+    "total": 2000,
+    "train": 1600,
+    "val": 200
+  },
+  "split_id": "3afe307c9bc24960",
+  "split_ratio": "8:1:1",
+  "ssgc_alpha": 0.0,
+  "ssgc_formula_profile": {
+    "W1": "W",
+    "W2": "I",
+    "aggregation_operator": "+",
+    "alpha_pre": 0,
+    "beta": 0,
+    "gamma_1": 1.0,
+    "gamma_2": 0.5,
+    "gamma_3": 0.0,
+    "graph_logits": "Y_G",
+    "lambda_1": 1,
+    "lambda_2": 0,
+    "note": "Current optimized Rust graph-classification SSGC relation fixes alpha=0.",
+    "readout": "MeanPool"
+  },
+  "task": "graph_classification",
+  "training_time_ms_excluded": 9337.19255400449,
+  "use_per_vk_compact_shape": false,
+  "verify_argmax_relation": true,
+  "warmup_policy": "run_id=0 full REDDIT-BINARY test split excluded from aggregate statistics",
+  "weight_source": "trained_npz_checkpoint_created_for_benchmark"
+}

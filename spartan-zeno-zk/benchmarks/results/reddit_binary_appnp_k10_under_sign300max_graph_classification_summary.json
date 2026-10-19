@@ -1,0 +1,452 @@
+{
+  "actual_K": 10,
+  "actual_model": "APPNP",
+  "aggregate_primary_unit": "complete_REDDIT_BINARY_test_split_run",
+  "all_verification_passed": true,
+  "appnp_alpha": 0.09765625,
+  "appnp_alpha_fixed_point_numerator": 25,
+  "appnp_formula_profile": {
+    "W1": "I",
+    "W2": "I",
+    "aggregation_operator": "+",
+    "alpha_pre": 1,
+    "beta": 0,
+    "gamma_1": 0,
+    "gamma_2": 1,
+    "gamma_3": 0,
+    "graph_logits": "Y_G",
+    "lambda_1": 0.90234375,
+    "lambda_2": 0.09765625,
+    "note": "Current optimized Rust graph-classification APPNP relation fixes alpha=floor(scale/10)/scale.",
+    "readout": "MeanPool"
+  },
+  "batchsize": 1,
+  "checkpoint_loaded": true,
+  "checkpoint_path": "/home/wkr/model_and_zkp/spartan-zeno-zk/benchmarks/artifacts/reddit_binary_appnp_k10_under_sign300max_graph_weights.npz",
+  "complete_dataset_scope": "complete_REDDIT_BINARY_test_split",
+  "complete_test_split_covered_every_run": true,
+  "complete_test_split_graphs": 200,
+  "container_mode": "global_max",
+  "dataset": "REDDIT-BINARY",
+  "dataset_run_aggregate": {
+    "commit_time_ms": {
+      "max": 97436.689435,
+      "mean": 57316.1495002,
+      "min": 46947.315538,
+      "std": 22431.395021555476
+    },
+    "commitment_binding_time_ms": {
+      "max": 573.857862,
+      "mean": 572.9005278,
+      "min": 572.085028,
+      "std": 0.7882016833007917
+    },
+    "opening_generation_time_ms": {
+      "max": 3797435.888082,
+      "mean": 3686177.9380294,
+      "min": 3645053.05848,
+      "std": 63774.407082433536
+    },
+    "opening_parse_time_ms": {
+      "max": 46.098601,
+      "mean": 41.5572348,
+      "min": 39.403395,
+      "std": 2.730516067988834
+    },
+    "opening_verify_time_ms": {
+      "max": 1877620.945537,
+      "mean": 1835988.5642494,
+      "min": 1821342.800262,
+      "std": 23983.74103977692
+    },
+    "proof_assembly_time_ms": {
+      "max": 115.044969,
+      "mean": 111.75034559999999,
+      "min": 108.673027,
+      "std": 2.3023449526938364
+    },
+    "proof_digest_time_ms": {
+      "max": 19814.541387,
+      "mean": 19678.043252,
+      "min": 19567.888293,
+      "std": 104.13307599776401
+    },
+    "proof_digest_verify_time_ms": {
+      "max": 19869.593634,
+      "mean": 19712.3823454,
+      "min": 19595.094429,
+      "std": 117.91697776776434
+    },
+    "proof_size_bytes": {
+      "max": 53820000.0,
+      "mean": 53820000.0,
+      "min": 53820000.0,
+      "std": 0.0
+    },
+    "proof_size_kb": {
+      "max": 52558.59375,
+      "mean": 52558.59375,
+      "min": 52558.59375,
+      "std": 0.0
+    },
+    "proof_size_mb": {
+      "max": 51.326751708984375,
+      "mean": 51.326751708984375,
+      "min": 51.326751708984375,
+      "std": 0.0
+    },
+    "prove_time_excluding_commit_ms": {
+      "max": 3937549.644978,
+      "mean": 3768213.1115158,
+      "min": 3703157.419042,
+      "std": 96777.86748791873
+    },
+    "public_binding_time_ms": {
+      "max": 80474.363001,
+      "mean": 24120.281773200004,
+      "min": 305.122446,
+      "std": 35724.382866229746
+    },
+    "public_input_validation_time_ms": {
+      "max": 25238.531843,
+      "mean": 24510.3413588,
+      "min": 24172.996482,
+      "std": 421.6408010405018
+    },
+    "public_preprocess_time_ms": {
+      "max": 8225.05525432527,
+      "mean": 8007.765303656459,
+      "min": 7863.924222737551,
+      "std": 167.22578288266516
+    },
+    "range_commitment_time_ms": {
+      "max": 16151.577953,
+      "mean": 16056.5958762,
+      "min": 15937.147062,
+      "std": 93.82248995197172
+    },
+    "residual_constraint_time_ms": {
+      "max": 2252.544955,
+      "mean": 2129.4441364,
+      "min": 2017.645078,
+      "std": 98.45499447799202
+    },
+    "spark_root_time_ms": {
+      "max": 133.896343,
+      "mean": 131.5853698,
+      "min": 130.341173,
+      "std": 1.4399284471838163
+    },
+    "spark_verify_time_ms": {
+      "max": 164.552438,
+      "mean": 160.40722839999998,
+      "min": 157.965137,
+      "std": 2.480000468887011
+    },
+    "sumcheck_context_verify_time_ms": {
+      "max": 19793.33535,
+      "mean": 19710.557,
+      "min": 19603.646299,
+      "std": 77.02240526408772
+    },
+    "sumcheck_time_ms": {
+      "max": 37572.200621,
+      "mean": 36107.3099516,
+      "min": 35387.975434,
+      "std": 857.9359678681068
+    },
+    "sumcheck_verify_time_ms": {
+      "max": 4424.143997,
+      "mean": 4414.3991604,
+      "min": 4408.723431,
+      "std": 5.870597821303168
+    },
+    "total_backend_time_ms": {
+      "max": 4015663.239838,
+      "mean": 3855576.2966918,
+      "min": 3780503.520477,
+      "std": 97421.65937964169
+    },
+    "total_prover_time_including_commit_ms": {
+      "max": 3985493.0604479997,
+      "mean": 3825529.261016,
+      "min": 3750291.0158700002,
+      "std": 97506.80199086496
+    },
+    "verify_commitment_parse_time_ms": {
+      "max": 36.96376,
+      "mean": 35.3137178,
+      "min": 34.347677,
+      "std": 1.0336298911678692
+    },
+    "verify_public_input_time_ms": {
+      "max": 25569.965264,
+      "mean": 24727.0977494,
+      "min": 24134.989766,
+      "std": 522.0258455290258
+    },
+    "verify_time_ms": {
+      "max": 1956546.7693515122,
+      "mean": 1913638.07854656,
+      "min": 1898535.5999180079,
+      "std": 24704.04496942843
+    },
+    "verify_total_backend_time_ms": {
+      "max": 1948026.5840109999,
+      "mean": 1905416.7432363997,
+      "min": 1890486.671269,
+      "std": 24533.917455535506
+    },
+    "verify_weight_binding_time_ms": {
+      "max": 532.79741,
+      "mean": 531.2076158,
+      "min": 529.808416,
+      "std": 1.1601552854821684
+    },
+    "wall_clock_dataset_run_time_ms": {
+      "max": 6099678.480792999,
+      "mean": 2789281.1005637944,
+      "min": 7606.264632999897,
+      "std": 3005068.0960073685
+    },
+    "witness_commitment_time_ms": {
+      "max": 80652.663722,
+      "mean": 40555.020176,
+      "min": 30112.304534,
+      "std": 22419.56086386691
+    },
+    "witness_generation_time_ms": {
+      "max": 6266.256727,
+      "mean": 5424.2954166,
+      "min": 4736.385624,
+      "std": 642.6454155733034
+    }
+  },
+  "dataset_runs_measured": 5,
+  "dataset_runs_total": 6,
+  "dims": {
+    "D_max": 64,
+    "H_max": 128,
+    "N_max": 4096,
+    "c": 2,
+    "d": 11,
+    "h": 32
+  },
+  "do_not_verify_softmax": true,
+  "exclude_padding_nodes": true,
+  "optimized_rust_proof_route": true,
+  "per_graph_aggregate": {
+    "commit_time_ms": {
+      "max": 50680.959154,
+      "mean": 286.580747501,
+      "min": 226.434773,
+      "std": 1595.2132196716757
+    },
+    "commitment_binding_time_ms": {
+      "max": 5.257773,
+      "mean": 2.864502639,
+      "min": 2.779636,
+      "std": 0.09633269628148868
+    },
+    "opening_generation_time_ms": {
+      "max": 22820.295872,
+      "mean": 18430.889690147,
+      "min": 17527.310254,
+      "std": 581.5557316430991
+    },
+    "opening_parse_time_ms": {
+      "max": 0.597755,
+      "mean": 0.207786174,
+      "min": 0.177216,
+      "std": 0.03331388003031767
+    },
+    "opening_verify_time_ms": {
+      "max": 10205.800795,
+      "mean": 9179.942821247001,
+      "min": 9027.945102,
+      "std": 209.44738214084458
+    },
+    "proof_assembly_time_ms": {
+      "max": 1.021416,
+      "mean": 0.558751728,
+      "min": 0.409822,
+      "std": 0.05318249146537308
+    },
+    "proof_digest_time_ms": {
+      "max": 99.891199,
+      "mean": 98.39021626,
+      "min": 95.78666600000001,
+      "std": 0.8404729809542104
+    },
+    "proof_digest_verify_time_ms": {
+      "max": 100.137839,
+      "mean": 98.561911727,
+      "min": 95.865997,
+      "std": 0.8680459167907424
+    },
+    "proof_size_bytes": {
+      "max": 269100.0,
+      "mean": 269100.0,
+      "min": 269100.0,
+      "std": 0.0
+    },
+    "proof_size_kb": {
+      "max": 262.79296875,
+      "mean": 262.79296875,
+      "min": 262.79296875,
+      "std": 0.0
+    },
+    "proof_size_mb": {
+      "max": 0.2566337585449219,
+      "mean": 0.2566337585449219,
+      "min": 0.2566337585449219,
+      "std": 0.0
+    },
+    "prove_time_excluding_commit_ms": {
+      "max": 23125.531307999998,
+      "mean": 18841.065557579,
+      "min": 17807.480538,
+      "std": 713.2647421753876
+    },
+    "public_binding_time_ms": {
+      "max": 1058.45299,
+      "mean": 120.601408866,
+      "min": 1.379986,
+      "std": 241.73580438633752
+    },
+    "public_input_validation_time_ms": {
+      "max": 163.372234,
+      "mean": 122.551706794,
+      "min": 93.61117300000001,
+      "std": 8.577263236571916
+    },
+    "public_preprocess_time_ms": {
+      "max": 274.8310589790344,
+      "mean": 40.03882651828229,
+      "min": 34.85743099451065,
+      "std": 13.865808682845993
+    },
+    "range_commitment_time_ms": {
+      "max": 87.664421,
+      "mean": 80.282979381,
+      "min": 77.143955,
+      "std": 1.56757235291993
+    },
+    "residual_constraint_time_ms": {
+      "max": 21.053727000000002,
+      "mean": 10.647220681999999,
+      "min": 3.677442,
+      "std": 1.3538343906836585
+    },
+    "spark_root_time_ms": {
+      "max": 4.892253,
+      "mean": 0.657926849,
+      "min": 0.031167,
+      "std": 0.8322196327794916
+    },
+    "spark_verify_time_ms": {
+      "max": 5.331129000000001,
+      "mean": 0.8020361420000001,
+      "min": 0.138381,
+      "std": 0.8420664025924195
+    },
+    "sumcheck_context_verify_time_ms": {
+      "max": 101.25827199999999,
+      "mean": 98.552785,
+      "min": 95.85709,
+      "std": 0.7484547786754095
+    },
+    "sumcheck_time_ms": {
+      "max": 210.170203,
+      "mean": 180.536549758,
+      "min": 167.89021300000002,
+      "std": 6.701419903148132
+    },
+    "sumcheck_verify_time_ms": {
+      "max": 22.922906,
+      "mean": 22.071995802,
+      "min": 21.545783999999998,
+      "std": 0.15323667403827693
+    },
+    "total_backend_time_ms": {
+      "max": 69825.743485,
+      "mean": 19277.881483459,
+      "min": 18198.016107,
+      "std": 1752.9384649455974
+    },
+    "total_prover_time_including_commit_ms": {
+      "max": 69676.804582,
+      "mean": 19127.64630508,
+      "min": 18043.709115999998,
+      "std": 1752.6220962938073
+    },
+    "verify_commitment_parse_time_ms": {
+      "max": 0.607371,
+      "mean": 0.176568589,
+      "min": 0.155473,
+      "std": 0.02501299383373781
+    },
+    "verify_public_input_time_ms": {
+      "max": 169.26854999999998,
+      "mean": 123.635488747,
+      "min": 93.031249,
+      "std": 8.663363532216753
+    },
+    "verify_time_ms": {
+      "max": 10594.75295200944,
+      "mean": 9568.190392732799,
+      "min": 9388.437153995037,
+      "std": 213.14017243198114
+    },
+    "verify_total_backend_time_ms": {
+      "max": 10552.926009,
+      "mean": 9527.083716181998,
+      "min": 9348.016098,
+      "std": 212.15112139783497
+    },
+    "verify_weight_binding_time_ms": {
+      "max": 3.155497,
+      "mean": 2.656038079,
+      "min": 2.587209,
+      "std": 0.027763343828424096
+    },
+    "witness_commitment_time_ms": {
+      "max": 50596.635122,
+      "mean": 202.77510088000002,
+      "min": 143.37201199999998,
+      "std": 1595.1941228263245
+    },
+    "witness_generation_time_ms": {
+      "max": 43.447183,
+      "mean": 27.121477083000002,
+      "min": 13.015261,
+      "std": 6.624962371408469
+    }
+  },
+  "per_graph_proofs_measured": 1000,
+  "per_graph_proofs_total": 1200,
+  "pooling_denominator": "N_real",
+  "preprocess_cache_build_time_ms": 0.0,
+  "private_output": "graph_level_logits Y_G",
+  "progress_dir": "/home/wkr/model_and_zkp/spartan-zeno-zk/benchmarks/results/reddit_binary_appnp_k10_under_sign300max_graph_classification_progress",
+  "public_output": "predicted_label ell",
+  "public_preprocess_cached": true,
+  "purpose": "Six-run complete-test-split Spartan-ZENO ZK correctness and integrity benchmark for REDDIT-BINARY graph classification with actual model APPNP(K=10).",
+  "readout": "MeanPool",
+  "resume_enabled": true,
+  "shape_profile": "SIGN(3,0,0)_MAX",
+  "split_counts": {
+    "test": 200,
+    "total": 2000,
+    "train": 1600,
+    "val": 200
+  },
+  "split_id": "3afe307c9bc24960",
+  "split_ratio": "8:1:1",
+  "task": "graph_classification",
+  "training_time_ms_excluded": 0.0,
+  "use_per_vk_compact_shape": false,
+  "verify_argmax_relation": true,
+  "warmup_policy": "run_id=0 full REDDIT-BINARY test split excluded from aggregate statistics",
+  "weight_source": "trained_npz_checkpoint"
+}
