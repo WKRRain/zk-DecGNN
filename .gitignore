@@ -26,3 +26,6 @@ venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Ignore experiment results
+/spartan-zeno-zk/benchmarks/results/
